@@ -23,12 +23,49 @@ main{
 }
 
 #telefone{
-    width: 311px;
-    height: 627px;
-    background-image: url(../imagens/frame-iphone.png);
+    width: 200px;
+    height: 404px;
+    background-image: url(../imagens/frame-iphonepq.png);
 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+iframe#tela{
+    width: 171px;
+    height: 302px;
+    position: relative;
+    top: 52px;
+    left: 14px;
+}
+
+section#rede-social{
+    text-align: right;
+    padding-top: 40px;
+}
+
+section#rede-social img{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    margin-right: 30px;
+    border: 3px solid black;
+    border-radius: 50%;
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.637);
+    box-sizing: border-box;
+}
+
+section#rede-social img:hover{
+    
+    transform: translate(-10px, -10px);
+    box-shadow: 2px 2px 0px rgb(0, 0, 0);
+    transition: transform 0.1s;
+    border: 2px solid rgb(253, 253, 253);
+    transition: border .5s;
+}
+
+#primeiro{
+    margin-top: 30px;
 }
